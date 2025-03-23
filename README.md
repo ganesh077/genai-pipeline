@@ -5,7 +5,7 @@ This repository contains a Langflow-based GenAI pipeline that leverages vector e
 ## Features
 
 - **Data Ingestion:**  
-  Load and parse unstructured data (CSV, PDF, etc.) using custom Python scripts and Langflow components.
+  Load and parse unstructured data using Langflow components.
 
 - **Text Processing & Splitting:**  
   Split long text documents into manageable chunks using a dedicated Split Text component.
@@ -20,9 +20,7 @@ This repository contains a Langflow-based GenAI pipeline that leverages vector e
   Retrieve contextually relevant documents based on a user query’s embedding and combine them with the query to generate an answer with an LLM.
 
 - **Modular & Scalable Architecture:**  
-  The pipeline is built using Langflow’s visual interface and configuration JSON, making it easy to modify and extend.
-
-## Repository Structure
+  The pipeline is built using Langflow’s visual interface, making it easy to modify and extend.
 
 
 https://github.com/user-attachments/assets/006e70d9-da7a-4d80-bdc6-87a3fd27bf83
